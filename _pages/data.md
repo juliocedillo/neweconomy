@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Data
-permalink: /data/
+permalink: /data
 ---
 
 Data page
