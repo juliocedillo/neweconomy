@@ -1,11 +1,8 @@
-- name: home
-  link: /
-
-- name: Data
-  link: /data/
-  
-- name: People
-  link: /people/
-  
-- name: Contact
-  link: /contact
+- title: Home
+  url: /
+- title: Data
+  url: /data
+- title: People
+  url: /people
+- title: Contact
+  url: /contact
