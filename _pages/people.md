@@ -1,6 +1,6 @@
 ---
 layout: default
 title: People
-permalink: /people/
+permalink: /people
 ---
 People page
