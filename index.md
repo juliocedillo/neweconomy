@@ -23,6 +23,7 @@ permalink: /
 <h2 style="text-align: center;">Dynamics We're Investigating</h2>
 
 ### Question I
-#### _How are rising labor costs in China changing economic calculus? What are its geopolitical ramifications?_
-<img src="https://juliocedillo.github.io/neweconomy/assets/images/q1.png" width="300" /> 
+<img src="https://juliocedillo.github.io/neweconomy/assets/images/q1.png" alt="Description" style="vertical-align: top; width: 150px;"/>  
+<p style="display: inline-block; vertical-align: top;">How are rising labor costs in China changing economic calculus? What are its geopolitical ramifications?</p>
+
 
