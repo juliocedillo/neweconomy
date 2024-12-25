@@ -16,7 +16,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Other styles remain the same */
 header {
-  background-color: #333;
+  background-color: #222222;
   color: #fff;
   padding: 10px;
 }
@@ -34,6 +34,15 @@ nav ul li {
   display: inline;
   margin-right: 10px;
 }
+
+.navbar a {
+  color: #fff; /* Change this to your preferred color */
+}
+
+.navbar a:hover {
+  color: #fff; /* This sets the hover color */
+}
+
 
 main {
   padding: 20px;
