@@ -39,7 +39,7 @@ permalink: /
 <style>
   .carousel {
     position: relative;
-    max-width: 800px;
+    max-width: 800px; /* Adjust width as necessary */
     margin: auto;
     overflow: hidden;
   }
@@ -51,6 +51,7 @@ permalink: /
 
   .carousel-slide {
     width: 100%;
+    flex-shrink: 0; /* Prevents the images from shrinking */
     display: block;
   }
 
