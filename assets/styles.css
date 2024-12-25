@@ -35,14 +35,14 @@ nav ul li {
   margin-right: 10px;
 }
 
-.navbar a {
-  color: #fff; /* Change this to your preferred color */
+nav ul li a {
+  color: #fff; /* Set your preferred color for unvisited links */
+  text-decoration: none; /* Optional: removes underline */
 }
 
-.navbar a:hover {
-  color: #fff; /* This sets the hover color */
+nav ul li a:visited {
+  color: #fff; /* Change this to your preferred color for visited links */
 }
-
 
 main {
   padding: 20px;
