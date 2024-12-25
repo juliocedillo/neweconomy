@@ -1,2 +1,1 @@
-### Professor Armando Lara-Millán, UC Berkeley
-###### _What if the rules that defined the past 40 years of economic history were one-time, historically contingent developments that are now rapidly coming to an end?_
+This website was made for Professor [Armando Lara-Millán]("https://sociology.berkeley.edu/faculty/armando-lara-millan") for his upcoming research project. 
