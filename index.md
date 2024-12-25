@@ -22,49 +22,72 @@ permalink: /
 
 <h2 style="text-align: center;">Dynamics We're Investigating</h2>
 
-<div class="carousel-container">
-    <div class="carousel-slide">
-        <div class="carousel-item">
-            <img src="https://juliocedillo.github.io/neweconomy/assets/images/q1.png" alt="Image 1">
-        </div>
-        <div class="carousel-item">
-            <img src="https://juliocedillo.github.io/neweconomy/assets/images/q2.png" alt="Image 2">
-        </div>
-        <div class="carousel-item">
-            <img src="https://juliocedillo.github.io/neweconomy/assets/images/q3.png" alt="Image 3">
-        </div>
-        <div class="carousel-item">
-            <img src="https://juliocedillo.github.io/neweconomy/assets/images/q4.png" alt="Image 4">
-        </div>
-        <div class="carousel-item">
-            <img src="https://juliocedillo.github.io/neweconomy/assets/images/q5.png" alt="Image 5">
-        </div>
-    </div>
-    <!-- Controls -->
-    <button class="prev" onclick="moveSlide(-1)">&#10094;</button>
-    <button class="next" onclick="moveSlide(1)">&#10095;</button>
+<!-- HTML for the Carousel -->
+<div class="carousel">
+  <div class="carousel-container">
+    <img class="carousel-slide" src="https://juliocedillo.github.io/neweconomy/assets/images/q1.png" alt="Image 1">
+    <img class="carousel-slide" src="https://juliocedillo.github.io/neweconomy/assets/images/q2.png" alt="Image 2">
+    <img class="carousel-slide" src="https://juliocedillo.github.io/neweconomy/assets/images/q3.png" alt="Image 3">
+    <img class="carousel-slide" src="https://juliocedillo.github.io/neweconomy/assets/images/q4.png" alt="Image 4">
+    <img class="carousel-slide" src="https://juliocedillo.github.io/neweconomy/assets/images/q5.png" alt="Image 5">
+  </div>
+  <button class="carousel-prev" onclick="moveSlide(-1)">&#10094;</button>
+  <button class="carousel-next" onclick="moveSlide(1)">&#10095;</button>
 </div>
 
+<!-- CSS for styling the Carousel -->
+<style>
+  .carousel {
+    position: relative;
+    max-width: 800px;
+    margin: auto;
+    overflow: hidden;
+  }
+
+  .carousel-container {
+    display: flex;
+    transition: transform 0.5s ease;
+  }
+
+  .carousel-slide {
+    width: 100%;
+    display: block;
+  }
+
+  .carousel-prev, .carousel-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 16px;
+    cursor: pointer;
+    z-index: 10;
+  }
+
+  .carousel-prev {
+    left: 0;
+  }
+
+  .carousel-next {
+    right: 0;
+  }
+</style>
+
+<!-- JavaScript to control the Carousel -->
 <script>
-let index = 0; // Track the current slide
+  let currentIndex = 0;
 
-function moveSlide(step) {
-    const slides = document.querySelectorAll('.carousel-item');
+  // Function to move the slide
+  function moveSlide(direction) {
+    const slides = document.querySelectorAll('.carousel-slide');
     const totalSlides = slides.length;
-    
-    // Move to the next or previous slide
-    index += step;
 
-    if (index >= totalSlides) {
-        index = 0; // Loop back to the first slide
-    }
-    
-    if (index < 0) {
-        index = totalSlides - 1; // Loop back to the last slide
-    }
+    // Update the currentIndex based on direction
+    currentIndex = (currentIndex + direction + totalSlides) % totalSlides;
 
-    // Move the carousel slide
-    const carouselSlide = document.querySelector('.carousel-slide');
-    carouselSlide.style.transform = `translateX(${-index * 100}%)`;
-}
+    // Update the position of the carousel container
+    document.querySelector('.carousel-container').style.transform = `translateX(-${currentIndex * 100}%)`;
+  }
 </script>
