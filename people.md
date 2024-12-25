@@ -9,7 +9,7 @@ permalink: /people/
 <div style="display: flex; align-items: center; margin-bottom: 30px;">
 
   <!-- Profile Image -->
-  <img src="assets/images/armando.png" alt="Profile Image" style="width: 120px; height: 120px; border-radius: 50%; object-fit: cover; margin-right: 20px;">
+  <img src="https://juliocedillo.github.io/neweconomy/assets/images/armando.png" alt="Profile Image" style="width: 120px; height: 120px; border-radius: 50%; object-fit: cover; margin-right: 20px;">
 
   <!-- Profile Details -->
   <div>
