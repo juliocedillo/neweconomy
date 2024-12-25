@@ -4,6 +4,6 @@ title: Home
 permalink: /
 ---
 
-# Welcome to My GitHub Pages Site
-
-This is the homepage of your website. You can add more content here using Markdown.
+<div align="center">
+  What if the rules that defined the past 40 years of economic history were one-time, historically contingent developments that are now rapidly coming to an end?
+</div>
