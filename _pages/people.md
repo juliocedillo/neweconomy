@@ -1,7 +1,7 @@
 ---
 layout: default
 title: People
-permalink: /people
+permalink: /people/
 ---
 
 # Meet The Team
