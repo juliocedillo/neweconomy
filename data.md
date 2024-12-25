@@ -1,0 +1,6 @@
+---
+layout: default
+title: Data
+permalink: /data/
+---
+Test page
