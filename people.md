@@ -9,7 +9,7 @@ permalink: /people/
 <div style="display: flex; align-items: center; margin-bottom: 30px;">
 
   <!-- Profile Image -->
-  <img src="assets/images/armando.jpg" alt="Profile Image" style="width: 120px; height: 120px; border-radius: 50%; object-fit: cover; margin-right: 20px;">
+  <img src="assets/images/armando.png" alt="Profile Image" style="width: 120px; height: 120px; border-radius: 50%; object-fit: cover; margin-right: 20px;">
 
   <!-- Profile Details -->
   <div>
@@ -23,11 +23,11 @@ permalink: /people/
 <div style="display: flex; align-items: center; margin-bottom: 30px;">
 
   <!-- Profile Image -->
-  <img src="assets/images/issac.jpg" alt="Profile Image" style="width: 120px; height: 120px; border-radius: 50%; object-fit: cover; margin-right: 20px;">
+  <img src="assets/images/isaac.png" alt="Profile Image" style="width: 120px; height: 120px; border-radius: 50%; object-fit: cover; margin-right: 20px;">
 
   <!-- Profile Details -->
   <div>
-    <h2 style="margin: 0; font-size: 24px;">Issac Dalke</h2>
+    <h2 style="margin: 0; font-size: 24px;">Isaac Dalke</h2>
     <h3 style="margin-top: 5px; font-size: 18px; color: #777;">Gradute Student Researcher</h3> 
     <p style="font-size: 16px; color: #666;">Isaac is a PhD candidate in the UC Berkeley Sociology Department. His work sits at the intersection of law, politics, and urban life. More concretely, he is interested in how the penal state has evolved in response to broader legal and social change, and the role of nonprofits in defining and responding to social problems in American cities. These two strands come together in his dissertation research, which takes a multifaceted approach to understanding the rise of community-based violence prevention efforts across California. He's interested in how different actors and organizations envision violence prevention, and the practical opportunities and constraints involved in realizing those visions through nonprofit contracting. This ranges from securing funding and developing community partnerships to implementation and evaluating success.</p>
   </div>
@@ -37,7 +37,7 @@ permalink: /people/
 <div style="display: flex; align-items: center; margin-bottom: 30px;">
 
   <!-- Profile Image -->
-  <img src="assets/images/julio.jpeg" alt="Profile Image" style="width: 120px; height: 120px; border-radius: 50%; object-fit: cover; margin-right: 20px;">
+  <img src="assets/images/julio.png" alt="Profile Image" style="width: 120px; height: 120px; border-radius: 50%; object-fit: cover; margin-right: 20px;">
 
   <!-- Profile Details -->
   <div>
