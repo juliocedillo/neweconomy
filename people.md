@@ -20,6 +20,8 @@ permalink: /people/
 
 </div>
 
+<p>&nbsp;&nbsp;&nbsp;</p>
+
 <div style="display: flex; align-items: center; margin-bottom: 30px;">
 
   <!-- Profile Image -->
@@ -33,6 +35,8 @@ permalink: /people/
   </div>
 
 </div>
+
+<p>&nbsp;&nbsp;&nbsp;</p>
 
 <div style="display: flex; align-items: center; margin-bottom: 30px;">
 
