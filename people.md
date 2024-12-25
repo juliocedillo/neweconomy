@@ -9,7 +9,7 @@ permalink: /people/
 <div style="display: flex; align-items: center; margin-bottom: 30px;">
 
   <!-- Profile Image -->
-  <img src="https://juliocedillo.github.io/neweconomy/assets/images/armando.png" alt="Profile Image" style="width: 300px; height: 300px; border-radius: 50%; object-fit: cover; margin-right: 20px;">
+  <img src="https://juliocedillo.github.io/neweconomy/assets/images/armando.png" alt="Profile Image" style="width: 200px; height: 200px; border-radius: 50%; object-fit: cover; margin-right: 20px;">
 
   <!-- Profile Details -->
   <div>
@@ -23,7 +23,7 @@ permalink: /people/
 <div style="display: flex; align-items: center; margin-bottom: 30px;">
 
   <!-- Profile Image -->
-  <img src="https://juliocedillo.github.io/neweconomy/assets/images/isaac.png" alt="Profile Image" style="width: 300px; height: 300px; border-radius: 50%; object-fit: cover; margin-right: 20px;">
+  <img src="https://juliocedillo.github.io/neweconomy/assets/images/isaac.png" alt="Profile Image" style="width: 200px; height: 200px; border-radius: 50%; object-fit: cover; margin-right: 20px;">
 
   <!-- Profile Details -->
   <div>
@@ -37,7 +37,7 @@ permalink: /people/
 <div style="display: flex; align-items: center; margin-bottom: 30px;">
 
   <!-- Profile Image -->
-  <img src="https://juliocedillo.github.io/neweconomy/assets/images/julio.png" alt="Profile Image" style="width: 300px; height: 300px; border-radius: 50%; object-fit: cover; margin-right: 20px;">
+  <img src="https://juliocedillo.github.io/neweconomy/assets/images/julio.png" alt="Profile Image" style="width: 200px; height: 200px; border-radius: 50%; object-fit: cover; margin-right: 20px;">
 
   <!-- Profile Details -->
   <div>
