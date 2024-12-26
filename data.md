@@ -4,7 +4,7 @@ title: Data
 permalink: /data/
 ---
 
-<div style="display: flex; align-items: center; margin-bottom: 30px;">
+<div style="display: flex; align-items: center; margin-bottom: 30px; margin-right: 20px;">
 
   <!-- Profile Image -->
   <img src="https://juliocedillo.github.io/neweconomy/assets/images/jackson.png" width="300px">
