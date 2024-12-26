@@ -10,6 +10,8 @@ permalink: /
 
 <p>&nbsp;&nbsp;&nbsp;</p>
 
+Armando Lara-Millan is writing a book tentatively titled The Firm That Predicted the Future and the Birth of a New Global Economy. It argues that over the past forty years, five global political-economic dynamics were largely mistaken for the new, permanent rules of the globalized economy. Instead, they were one-time, historically contingent developments that are now rapidly changing. Pairing a qualitative study of a key investment firm with the natural language processing of decades of corporate quarterly reports, Lara-Millan details the end of low-cost labor in China, the transition from high-growth to cyclical internet-beneficiary sectors, the move from cheap energy to expensive raw materials, the inability to further lower corporate taxes and the cost of corporate borrowing, and the uncertain role of performative monetary policy. The book offers a way of making sense of our supposed “polycrisis” to understand better how a new order is struggling to be born in the present.
+
 ---
 
 |Goal|Method|Impact|
