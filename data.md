@@ -7,7 +7,10 @@ permalink: /data/
 <div style="display: flex; align-items: center; margin-bottom: 30px; margin-right: 20px;">
 
   <!-- Profile Image -->
-  <img src="https://juliocedillo.github.io/neweconomy/assets/images/jackson.png" width="300px">
+  <img src="https://juliocedillo.github.io/neweconomy/assets/images/jackson.png" alt="interviewing" style="width: 300px; height: 1500px; border-radius: 50%; object-fit: cover; margin-right: 20px;">
+
+  <!-- Profile Details -->
+  <div>">
 
   <!-- Profile Details -->
   <div>
