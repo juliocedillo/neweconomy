@@ -4,9 +4,15 @@ title: Home
 permalink: /
 ---
 
-<div align="center">
-  What if the rules that defined the past 40 years of economic history were one-time, historically contingent developments that are now rapidly coming to an end?
+<div style="position: relative; display: inline-block;">
+  <img src="https://juliocedillo.github.io/neweconomy/assets/images/21.png" alt="header" style="width: 100%; height: auto;">
+  <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); color: white; font-size: 24px; font-weight: bold;">
+    <div align="center">
+      What if the rules that defined the past 40 years of economic history were one-time, historically contingent developments that are now rapidly coming to an end?
+    </div>
+  </div>
 </div>
+
 
 <p>&nbsp;&nbsp;&nbsp;</p>
 
