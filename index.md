@@ -5,7 +5,7 @@ permalink: /
 ---
 
 <div style="position: relative; display: inline-block;">
-  <img src="https://juliocedillo.github.io/neweconomy/assets/images/21.png" alt="header" style="width: 100%; height: 50%; border: none;">
+  <img src="https://juliocedillo.github.io/neweconomy/assets/images/21.png" alt="header" style="width: 50%; height: 50%; border: none;">
   <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); color: white; font-size: 24px; font-weight: bold;">
     <div align="center">
       What if the rules that defined the past 40 years of economic history were one-time, historically contingent developments that are now rapidly coming to an end?
@@ -81,19 +81,15 @@ Armando Lara-Millan is writing a book tentatively titled The Firm That Predicted
   }
 </style>
 
-<!-- JavaScript to control the Carousel -->
 <script>
   let currentIndex = 0;
 
-  // Function to move the slide
   function moveSlide(direction) {
     const slides = document.querySelectorAll('.carousel-slide');
     const totalSlides = slides.length;
 
-    // Update the currentIndex based on direction
     currentIndex = (currentIndex + direction + totalSlides) % totalSlides;
 
-    // Update the position of the carousel container
     document.querySelector('.carousel-container').style.transform = `translateX(-${currentIndex * 100}%)`;
   }
 </script>
