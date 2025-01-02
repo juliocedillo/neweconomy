@@ -5,13 +5,15 @@ permalink: /
 ---
 
 <div style="position: relative; display: inline-block;">
-  <img src="https://juliocedillo.github.io/neweconomy/assets/images/21.png" alt="header" style="width: 100%; height: 50%; border: none;">
+  <img src="https://juliocedillo.github.io/neweconomy/assets/images/pediment.png" alt="header" style="width: 100%; height: 50%; border: none;">
   <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); color: white; font-size: 24px; font-weight: bold;">
     <div align="center">
       What if the rules that defined the past 40 years of economic history were one-time, historically contingent developments that are now rapidly coming to an end?
     </div>
   </div>
 </div>
+
+<p>&nbsp;&nbsp;&nbsp;</p>
 
 Armando Lara-Millan is writing a book tentatively titled The Firm That Predicted the Future and the Birth of a New Global Economy. It argues that over the past forty years, five global political-economic dynamics were largely mistaken for the new, permanent rules of the globalized economy. Instead, they were one-time, historically contingent developments that are now rapidly changing. Pairing a qualitative study of a key investment firm with the natural language processing of decades of corporate quarterly reports, Lara-Millan details the end of low-cost labor in China, the transition from high-growth to cyclical internet-beneficiary sectors, the move from cheap energy to expensive raw materials, the inability to further lower corporate taxes and the cost of corporate borrowing, and the uncertain role of performative monetary policy. The book offers a way of making sense of our supposed “polycrisis” to understand better how a new order is struggling to be born in the present.
 
