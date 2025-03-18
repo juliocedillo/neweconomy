@@ -48,7 +48,8 @@ Armando Lara-Millan is writing a book tentatively titled The Firm That Predicted
 <style>
   .carousel {
     position: relative;
-    max-width: 800px; /* Adjust width as necessary */
+    max-width: 100%
+    height: 100vh
     margin: auto;
     overflow: hidden;
   }
