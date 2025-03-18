@@ -4,12 +4,10 @@ title: Home
 permalink: /
 ---
 
-<div style="position: relative; display: inline-block;">
-  <img src="https://juliocedillo.github.io/neweconomy/assets/images/pediment.png" alt="header" style="width: 100%; height: 50%; border: none;">
-  <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); color: white; font-size: 24px; font-weight: bold;">
-    <div align="center">
-      What if the rules that defined the past 40 years of economic history were one-time, historically contingent developments that are now rapidly coming to an end?
-    </div>
+<div style="position: relative; display: inline-block; width: 100vw; height: 100vh;">
+  <img src="https://juliocedillo.github.io/neweconomy/assets/images/pediment.png" alt="header" style="width: 100%; height: 100%; object-fit: cover; border: none;">
+  <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); color: white; font-size: 24px; font-weight: bold; text-align: center; max-width: 80%; line-height: 1.4;">
+    What if the rules that defined the past 40 years of economic history were one-time, historically contingent developments that are now rapidly coming to an end?
   </div>
 </div>
 
@@ -49,7 +47,6 @@ Armando Lara-Millan is writing a book tentatively titled The Firm That Predicted
   .carousel {
     position: relative;
     max-width: 100%
-    height: 100vh
     margin: auto;
     overflow: hidden;
   }
