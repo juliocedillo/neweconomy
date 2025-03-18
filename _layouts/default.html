@@ -6,6 +6,21 @@
   <title>{{ page.title | default: site.title }}</title>
   <link rel="stylesheet" href="{{ '/assets/styles.css' | relative_url }}">
   <link rel="icon" href="{{ site.baseurl }}/assets/images/seal.ico" type="image/x-icon">
+  <style>
+    footer {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 100%;
+      padding: 20px;
+      box-sizing: border-box;
+    }
+    .language-flags {
+      display: flex;
+      gap: 15px;
+      margin-left: auto; /* Push the flags to the right */
+    }
+  </style>
 </head>
 <body>
   <header>
@@ -28,19 +43,21 @@
     {{ content }}
   </main>
 
-  <footer style="display: flex; align-items: center;">
+  <footer>
     <a href="https://www.berkeley.edu/">
       <img src="https://juliocedillo.github.io/neweconomy/assets/images/berkeleylogo.png" style="width: 150px; margin-right: 20px;">
     </a>
     <p>&copy; {{ "now" | date: "%Y" }} Armando Lara-Millán. All rights reserved.</p>
-    <div style="display: flex; gap: 15px;">
-      <a href="/en" title="English">
+
+    <!-- Language flags with links -->
+    <div class="language-flags">
+      <a href="/neweconomy" title="English">
         <img src="https://upload.wikimedia.org/wikipedia/commons/a/a4/Flag_of_the_United_States.svg" alt="English" style="width: 30px;">
       </a>
-      <a href="/es" title="Español">
+      <a href="/neweconomy/spanish" title="Español">
         <img src="https://upload.wikimedia.org/wikipedia/commons/9/9a/Flag_of_Spain.svg" alt="Español" style="width: 30px;">
       </a>
-      <a href="/zh" title="中文 (Mandarin)">
+      <a href="/neweconomy/chinese" title="中文 (Mandarin)">
         <img src="https://upload.wikimedia.org/wikipedia/commons/0/0f/Flag_of_the_People%27s_Republic_of_China.svg" alt="中文 (Mandarin)" style="width: 30px;">
       </a>
     </div>
