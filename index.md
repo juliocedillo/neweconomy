@@ -45,21 +45,23 @@ Armando Lara-Millan is writing a book tentatively titled The Firm That Predicted
 <!-- CSS for styling the Carousel -->
 <style>
   .carousel {
-    position: relative;
-    max-width: 800px
-    margin: auto;
-    overflow: hidden;
+  position: relative;
+  max-width: 800px;
+  margin: auto;
+  overflow: hidden;
+  display: flex; 
+  justify-content: center; 
   }
 
   .carousel-container {
-    display: flex;
-    transition: transform 0.5s ease;
+  display: flex;
+  transition: transform 0.5s ease;
   }
 
-  .carousel-slide {
-    width: 800px
-    flex-shrink: 0; /* Prevents the images from shrinking */
-    display: block;
+.carousel-slide {
+  width: 800px;
+  flex-shrink: 0; /* Prevents the images from shrinking */
+  display: block;
   }
 
   .carousel-prev, .carousel-next {
