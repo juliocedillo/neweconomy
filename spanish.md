@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Spanish
-permalink: /sp
+permalink: /spanish
 ---
 
 <div style="position: relative; display: inline-block; width: 100vw; height: 100vh;">
