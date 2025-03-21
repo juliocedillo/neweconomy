@@ -27,7 +27,7 @@ Armando Lara-Millan is writing a book tentatively titled The Firm That Predicted
 
 <p>&nbsp;&nbsp;&nbsp;</p>
 
-<h2 style="text-align: center;">Dynamics We're Investigating</h2>
+<h1 style="text-align: center;">Dynamics We're Investigating</h1>
 
 <!-- HTML for the Carousel -->
 <div class="carousel">
@@ -45,23 +45,23 @@ Armando Lara-Millan is writing a book tentatively titled The Firm That Predicted
 <!-- CSS for styling the Carousel -->
 <style>
   .carousel {
-  position: relative;
-  max-width: 800px;
-  margin: auto;
-  overflow: hidden;
-  display: flex; 
-  justify-content: center; 
+    position: relative;
+    max-width: 800px;
+    margin: auto;
+    overflow: hidden;
+    display: flex; 
+    justify-content: center; 
   }
 
   .carousel-container {
-  display: flex;
-  transition: transform 0.5s ease;
+    display: flex;
+    transition: transform 0.5s ease;
   }
 
-.carousel-slide {
-  width: 800px;
-  flex-shrink: 0; /* Prevents the images from shrinking */
-  display: block;
+  .carousel-slide {
+    width: 800px;
+    flex-shrink: 0; /* Prevents the images from shrinking */
+    display: block;
   }
 
   .carousel-prev, .carousel-next {
@@ -92,8 +92,11 @@ Armando Lara-Millan is writing a book tentatively titled The Firm That Predicted
     const slides = document.querySelectorAll('.carousel-slide');
     const totalSlides = slides.length;
 
+    // Update currentIndex with bounds checking
     currentIndex = (currentIndex + direction + totalSlides) % totalSlides;
 
-    document.querySelector('.carousel-container').style.transform = `translateX(-${currentIndex * 100}%)`;
+    // Calculate the translateX value based on the slide index
+    const slideWidth = slides[0].offsetWidth;  // 800px in this case
+    document.querySelector('.carousel-container').style.transform = `translateX(-${currentIndex * slideWidth}px)`;
   }
 </script>
