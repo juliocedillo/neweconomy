@@ -60,7 +60,7 @@ Armando Lara-Millan is writing a book tentatively titled The Firm That Predicted
 
   .carousel-slide {
     width: 800px;
-    flex-shrink: 0; /* Prevents the images from shrinking */
+    flex-shrink: 0;
     display: block;
   }
 
@@ -92,10 +92,8 @@ Armando Lara-Millan is writing a book tentatively titled The Firm That Predicted
     const slides = document.querySelectorAll('.carousel-slide');
     const totalSlides = slides.length;
 
-    // Update currentIndex with bounds checking
     currentIndex = (currentIndex + direction + totalSlides) % totalSlides;
 
-    // Calculate the translateX value based on the slide index
     const slideWidth = slides[0].offsetWidth;  // 800px in this case
     document.querySelector('.carousel-container').style.transform = `translateX(-${currentIndex * slideWidth}px)`;
   }
