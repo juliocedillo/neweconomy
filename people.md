@@ -46,8 +46,8 @@ permalink: /people/
   <!-- Profile Details -->
   <div>
     <h2 style="margin: 0; font-size: 24px;">Julio Cedillo</h2>
-    <h3 style="margin-top: 5px; font-size: 18px; color: #777;">Undergraduate Research Apprentice</h3> 
-    <p style="font-size: 16px; color: #666;">Julio is a fourth-year sociology student minoring in political economy. His current research looks at the militarization of Latino men and the predisposition of pseudo-patriotism in the military. He is currently a George A. Miller Scholar and a Faculty-Mentored Undergraduate Research Fellow at the Latinx Research Center under the mentorship of Professor Lara-Millán. Julio is an aspiring sociology PhD student and plans to focus on theoretical, economic, political, and/or anticolonial sociology.</p>
+    <h3 style="margin-top: 5px; font-size: 18px; color: #777;">Undergraduate Research Assistant</h3> 
+    <p style="font-size: 16px; color: #666;">Julio is a fourth-year in the Department of Sociology. His current research looks at the militarization of Latino men and the predisposition of pseudo-patriotism in the military. He is currently a George A. Miller Scholar and a Faculty-Mentored Undergraduate Research Fellow at the Latinx Research Center under the mentorship of Professor Lara-Millán. Julio is an aspiring sociology PhD student and plans to focus on theoretical, economic, political, and/or anticolonial sociology.</p>
   </div>
 
 </div>
