@@ -2,7 +2,7 @@ title: The Future of the Global Economy
 description: What if the rules that defined the past 40 years of economic history were one-time, historically contingent developments that are now rapidly coming to an end?
 theme: jekyll-theme-slate
 markdown: kramdown
-url: "https://juliocedillo.github.io"
-baseurl: "/neweconomy"
+url: "https://juliocedillo.github.io/neweconomy"
+baseurl: ""
 logo: "assets/images/seal.ico"
 
