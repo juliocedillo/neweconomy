@@ -13,7 +13,6 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Times New Roman", Times, serif;
 }
 
-/* Other styles remain the same */
 header {
   background-color: #222222;
   color: #fff;
@@ -55,7 +54,6 @@ footer {
   margin-top: 20px;
 }
 
-/* Make sure the people-container is a flexbox */
 .people-container {
   display: flex;
   flex-wrap: wrap;
@@ -64,7 +62,6 @@ footer {
   margin: 20px;
 }
 
-/* Style for individual person block */
 .person {
   display: flex;
   align-items: center; /* Center image and bio vertically */
@@ -73,7 +70,6 @@ footer {
   margin-bottom: 20px;
 }
 
-/* Styling the images */
 .person-image {
   border-radius: 50%; /* Makes the image circular */
   width: 150px; /* Fixed width for the image */
@@ -82,7 +78,6 @@ footer {
   margin-right: 20px; /* Space between image and bio */
 }
 
-/* Styling for the bio section */
 .bio {
   max-width: 200px; /* Limits the width of the bio text */
 }
