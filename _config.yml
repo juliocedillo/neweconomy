@@ -3,6 +3,6 @@ description: What if the rules that defined the past 40 years of economic histor
 theme: jekyll-theme-slate
 markdown: kramdown
 url: "https://juliocedillo.github.io/"
-baseurl: ""
+baseurl: "neweconomy"
 logo: "assets/images/seal.ico"
 
