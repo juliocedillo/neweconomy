@@ -94,7 +94,14 @@ Armando Lara-Millan is writing a book tentatively titled The Firm That Predicted
 
     currentIndex = (currentIndex + direction + totalSlides) % totalSlides;
 
-    const slideWidth = slides[0].offsetWidth;  // 800px in this case
+    updateSlidePosition();
+  }
+
+  function updateSlidePosition() {
+    const slides = document.querySelectorAll('.carousel-slide');
+    const slideWidth = slides[0].offsetWidth;
     document.querySelector('.carousel-container').style.transform = `translateX(-${currentIndex * slideWidth}px)`;
   }
+
+  window.addEventListener('load', updateSlidePosition);
 </script>
