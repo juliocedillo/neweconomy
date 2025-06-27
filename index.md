@@ -99,9 +99,14 @@ Armando Lara-Millan is writing a book tentatively titled The Firm That Predicted
 
   function updateSlidePosition() {
     const slides = document.querySelectorAll('.carousel-slide');
+    if (slides.length === 0) return;
     const slideWidth = slides[0].offsetWidth;
-    document.querySelector('.carousel-container').style.transform = `translateX(-${currentIndex * slideWidth}px)`;
+    document.querySelector('.carousel-container').style.transform =
+      `translateX(-${currentIndex * slideWidth}px)`;
   }
 
-  window.addEventListener('load', updateSlidePosition);
+  // Ensure layout is calculated before applying transform
+  window.addEventListener('DOMContentLoaded', () => {
+    setTimeout(updateSlidePosition, 100);
+  });
 </script>
