@@ -32,9 +32,9 @@ Armando Lara-Millan is writing a book tentatively titled The Firm That Predicted
 <!-- HTML for the Carousel -->
 <div class="carousel">
   <div class="carousel-container">
-    <img class="carousel-slide" src="https://juliocedillo.github.io/neweconomy/assets/images/q1.png" alt="Image 1">
+    <img class="carousel-slide" src="https://juliocedillo.github.io/neweconomy/assets/images/q3.png" alt="Image 1">
     <img class="carousel-slide" src="https://juliocedillo.github.io/neweconomy/assets/images/q2.png" alt="Image 2">
-    <img class="carousel-slide" src="https://juliocedillo.github.io/neweconomy/assets/images/q3.png" alt="Image 3">
+    <img class="carousel-slide" src="https://juliocedillo.github.io/neweconomy/assets/images/q1.png" alt="Image 3">
     <img class="carousel-slide" src="https://juliocedillo.github.io/neweconomy/assets/images/q4.png" alt="Image 4">
     <img class="carousel-slide" src="https://juliocedillo.github.io/neweconomy/assets/images/q5.png" alt="Image 5">
   </div>
